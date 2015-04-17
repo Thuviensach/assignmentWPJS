@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+       <style>
+            /*De xem nó gộp cột thể nào thì thử hiện border lên là thấy*/
+            table td{
+                border : 1px solid black;
+            }
+            #box-login {
+                width: 200px;/*No can width fix ms co the can giua dc*/
+                margin: auto;
+            }
+            body {
+                background-image: url("12.jpg");
+                background-color: #cccccc;
+            }
+        </style>
+    </head>
+    <body >
+       
+        <div id="box-login">
+            <h1>Welcome to library</h1>
+            <form action="LoginUser">
+            <table>
+                <tr>
+                    <td>username</td>
+                    
+                </tr>
+                <tr>
+                    <td><input type="text" name="user" value=""></td>
+                </tr>                
+
+                <tr>
+                    <td>password</td>
+                    
+                </tr>
+                <tr> 
+                    <td><input type="password" name="pass" value=""></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="login"></td>
+                </tr>
+                    
+            </table>
+        </form>
+        </div>
+    </body>
+</html>

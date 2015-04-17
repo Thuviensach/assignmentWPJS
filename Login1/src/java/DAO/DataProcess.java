@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package DAO;
 
 import java.sql.Connection;
@@ -13,13 +12,11 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
 /**
  *
  * @author Administrator
  */
 public class DataProcess {
-    
     static Connection con;
     public static Connection getConnection()
     {
@@ -58,5 +55,7 @@ public class DataProcess {
             }
         }
     }
+//    public static void main(String[] args) {
+//        System.out.println("11" + getConnection());
+//    }
 }
-    
